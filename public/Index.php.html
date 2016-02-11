@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>League summoner API</title>
+    <link rel="stylesheet" href="leaguestyles.css">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="handlebars.js"></script>
+
+
+
+</head>
+<body background="background1.jpg">
+<!--<script>document.getElementById("summonerid").value;</script>dd -->
+<div id="everything">
+<div id="container">
+    <form action="#" id="target">
+        Summoner name:(only eune atm)<br>
+        <input type="text" name="firstname" id="summonerid" required>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
+
+
+
+
+
+    <script id="leagueasummonername" type="text/x-handlebars-template">
+        <div id="Snamelvl">
+            Summoner name: {{name}}. Level {{summonerLevel}}.
+        </div>
+    </script>
+    <script id="leaguesummonerinfo" type="text/x-handlebars-template">
+        <div id="sstats">
+            {{#each playerStatSummaries}}
+            Mode:{{playerStatSummaryType}}
+              Wins:{{wins}}<br>
+            {{/each}}
+        </div>
+    </script>
+
+</div>
+<div id="contentinfo">
+</div>
+</div>
+</body>
+</html>
+<script type="text/javascript" src="apiexecute.js"></script>
