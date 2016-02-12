@@ -3,47 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <title>League summoner API</title>
-    <link rel="stylesheet" href="leaguestyles.css">
+    <link rel="stylesheet" href="css/leaguestyles.css">
     <script type="text/javascript" src="jquery.js"></script>
     <script type="text/javascript" src="handlebars.js"></script>
-
-
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/leaguestyles.css">
 
 </head>
-<body background="background1.jpg">
-<!--<script>document.getElementById("summonerid").value;</script>dd -->
-<div id="everything">
-<div id="container">
-    <form action="#" id="target">
-        Summoner name:(only eune atm)<br>
-        <input type="text" name="firstname" id="summonerid" required>
-        <br>
-        <input type="submit" value="Submit">
-    </form>
+<body background="img/background1.jpg">
+    <!--<script>document.getElementById("summonerid").value;</script>dd -->
+    <div id="row">
+        <div id="container">
+            <form action="#" id="target">
+                Summoner name:(only eune atm)<br>
+                <input type="text" name="firstname" id="summonerid" required>
+                <input type="submit" value="Submit">
+            </form>
 
 
 
 
 
 
-    <script id="leagueasummonername" type="text/x-handlebars-template">
-        <div id="Snamelvl">
-            Summoner name: {{name}}. Level {{summonerLevel}}.
+            <script id="leagueasummonername" type="text/x-handlebars-template">
+                <div id="Snamelvl">
+                    Summoner name: {{name}}. Level {{summonerLevel}}.
+                </div>
+            </script>
+            <script id="leaguesummonerinfo" type="text/x-handlebars-template">
+                <div id="sstats">
+                    {{#each playerStatSummaries}}
+                    Mode:{{playerStatSummaryType}}
+                      Wins:{{wins}}<br>
+                    {{/each}}
+                </div>
+            </script>
         </div>
-    </script>
-    <script id="leaguesummonerinfo" type="text/x-handlebars-template">
-        <div id="sstats">
-            {{#each playerStatSummaries}}
-            Mode:{{playerStatSummaryType}}
-              Wins:{{wins}}<br>
-            {{/each}}
+        <div class="col-xs-1 col-xs-push-2 col-sm-1 col-sm-push-2 col-md-1 col-md-push-2 col-lg-1 col-lg-push-2" id="prevcontent"></div>
+        <div class="col-xs-8 col-xs-push-1 col-sm-8 col-sm-push-1  col-md-8 col-md-push-1 col-lg-8 col-lg-push-1" id="contentinfo">
         </div>
-    </script>
-
-</div>
-<div id="contentinfo">
-</div>
-</div>
+        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" id="nextcontent"></div>
+    </div>
 </body>
-</html>
 <script type="text/javascript" src="apiexecute.js"></script>
+</html>
+

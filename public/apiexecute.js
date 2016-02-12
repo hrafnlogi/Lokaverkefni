@@ -4,7 +4,7 @@
 $( "#target" ).submit(function( event ) {
     event.preventDefault();
     executeapiname(this.summonerid.value)
-
+    $("div#contentinfo").css("border-color: red;");
 });
 
 
@@ -37,7 +37,6 @@ function executeapiname(summonername){
 
             var templateScript = Handlebars.compile(template);
             //$("#leagueasummonername").html(apidata);
-
             var html = templateScript(apidata);
 
             $("#contentinfo").append(html);
@@ -62,11 +61,13 @@ function executeapiinfo(summonerid){
         console.log(apidata);
 
         var templateScript2 = Handlebars.compile(template2);
-        //$("#leagueasummonername").html(apidata);
+        //$("#leagueasummonername").html( apidata);
 
         var html = templateScript2(apidata);
 
         $("#contentinfo").append(html);
+        $("#prevcontent").height($("#contentinfo").height());
+        $("#nextcontent").height($("#contentinfo").height());
         summonerid = "";
         outcome = null;
         apidata = null;
@@ -79,6 +80,9 @@ function clearcontent(elementID)
 {
     document.getElementById(elementID).innerHTML = "";
 }
+
+
+
 
 //$("document").ready(function() {
 //});
