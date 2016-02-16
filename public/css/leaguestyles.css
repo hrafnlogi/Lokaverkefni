@@ -6,29 +6,38 @@ body {
 #row{text-align: center;}
 
 #prevcontent{
-    background-color: red;
-    min-height: 0px;
-    margin-top: 1em;
-    position: absolute;
-}
-#prevcontent:hover{
     background-color: rgba(255,239,213,0.5);
     min-height: 0px;
     margin-top: 1em;
-    border-style: solid;
-    border-color: red;
-
+    background-image: url(../img/prevarrow.png);
+    background-size: 4em;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#prevcontent:hover{
+    background-color: rgba(255,239,213,0.8);
+    min-height: 0px;
+    margin-top: 1em;
 }
 
 #contentinfo {
     background-color: rgba(255,239,213,0.5);
     min-height: 0px;
     margin-top: 1em;
-    position: inherit;
 }
 
 #nextcontent{
     background-color: rgba(255,239,213,0.5);
+    min-height: 0px;
+    margin-top: 1em;
+    background-image: url(../img/nextarrow.png);
+    background-size: 4em;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#nextcontent:hover{
+    background-color: rgba(255,239,213,0.8);
     min-height: 0px;
     margin-top: 1em;
 }
