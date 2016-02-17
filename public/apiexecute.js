@@ -74,6 +74,18 @@ function executeapiinfo(summonerid){
         summonerid = null;
     });
 }
+slidercounter = 1
+$( "#prevcontent" ).click(function() {
+    $("#sstats").hide( "slide", { direction: "left"  }, 2000 )
+    $("#prevcontent").height($("#contentinfo").height());
+    $("#nextcontent").height($("#contentinfo").height());
+});
+
+$( "#nextcontent" ).click(function() {
+    $("#sstats").show( "slide", { direction: "left"  }, 2000 )
+});
+
+
 
 
 function clearcontent(elementID)
