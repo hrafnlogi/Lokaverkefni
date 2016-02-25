@@ -12,9 +12,15 @@
 */
 
 Route::get('/', function () {
+    $people = ["hrafn", "Harold", "kim yong un"];
+
     return view('welcome');
 });
 
+
+Route::get('about', function(){
+    return view('pages.about');
+});
 /*
 |--------------------------------------------------------------------------
 | Application Routes
