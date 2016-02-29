@@ -24,8 +24,8 @@
       <file leaf-file-name="leaguestyles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/leaguestyles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.2692308">
-              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+            <state vertical-scroll-proportion="-26.153847">
+              <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -44,10 +44,12 @@
       <file leaf-file-name="apiexecute.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apiexecute.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3712036">
-              <caret line="159" column="3" selection-start-line="159" selection-start-column="3" selection-end-line="159" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.344207">
+              <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
               <folding>
                 <element signature="e#0#46#0" expanded="false" />
+                <marker date="1456748676328" expanded="true" signature="1866:1872" placeholder="..." />
+                <marker date="1456748676328" expanded="true" signature="1866:1885" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -56,8 +58,8 @@
       <file leaf-file-name="gradientPie.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gradientPie.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.172413">
-              <caret line="33" column="28" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="28" />
+            <state vertical-scroll-proportion="-19.344828">
+              <caret line="35" column="27" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="27" />
               <folding>
                 <element signature="e#0#46#0" expanded="false" />
               </folding>
@@ -68,8 +70,8 @@
       <file leaf-file-name="Index.php.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Index.php.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.884615">
-              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+            <state vertical-scroll-proportion="-5.2545457">
+              <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -91,12 +93,12 @@
         <option value="$PROJECT_DIR$/leaguestyles.css" />
         <option value="$PROJECT_DIR$/Index.php" />
         <option value="$PROJECT_DIR$/slider.html" />
-        <option value="$PROJECT_DIR$/css/leaguestyles.css" />
         <option value="$PROJECT_DIR$/img/d3pie.min.js" />
         <option value="$PROJECT_DIR$/d3pie.js" />
         <option value="$PROJECT_DIR$/test.html" />
-        <option value="$PROJECT_DIR$/Index.php.html" />
         <option value="$PROJECT_DIR$/gradientPie.js" />
+        <option value="$PROJECT_DIR$/Index.php.html" />
+        <option value="$PROJECT_DIR$/css/leaguestyles.css" />
         <option value="$PROJECT_DIR$/apiexecute.js" />
       </list>
     </option>
@@ -196,6 +198,8 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
     <property name="editor.config.accepted" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -267,7 +271,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -303,6 +307,128 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/apiexecute.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="162" column="62" selection-start-line="162" selection-start-column="62" selection-end-line="162" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#46#0" expanded="false" />
+            <marker date="1456748676328" expanded="true" signature="1866:1872" placeholder="..." />
+            <marker date="1456748676328" expanded="true" signature="1866:1885" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradientPie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="28" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#46#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index.php.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/leaguestyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apiexecute.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#46#0" expanded="false" />
+            <marker date="1456748676328" expanded="true" signature="1866:1872" placeholder="..." />
+            <marker date="1456748676328" expanded="true" signature="1866:1885" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradientPie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="28" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#46#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index.php.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/leaguestyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apiexecute.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#46#0" expanded="false" />
+            <marker date="1456748676328" expanded="true" signature="1866:1872" placeholder="..." />
+            <marker date="1456748676328" expanded="true" signature="1866:1885" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradientPie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="28" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#46#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index.php.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -325,6 +451,8 @@
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
             <element signature="e#0#46#0" expanded="false" />
+            <marker date="1456748676328" expanded="true" signature="1866:1872" placeholder="..." />
+            <marker date="1456748676328" expanded="true" signature="1866:1885" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -361,6 +489,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#46#0" expanded="false" />
+            <marker date="1456748676328" expanded="true" signature="1866:1872" placeholder="..." />
+            <marker date="1456748676328" expanded="true" signature="1866:1885" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -395,6 +525,8 @@
           <caret line="70" column="24" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
           <folding>
             <element signature="e#0#46#0" expanded="false" />
+            <marker date="1456748676328" expanded="true" signature="1866:1872" placeholder="..." />
+            <marker date="1456748676328" expanded="true" signature="1866:1885" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -421,6 +553,8 @@
           <caret line="75" column="1" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
           <folding>
             <element signature="e#0#46#0" expanded="false" />
+            <marker date="1456748676328" expanded="true" signature="1866:1872" placeholder="..." />
+            <marker date="1456748676328" expanded="true" signature="1866:1885" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -431,6 +565,8 @@
           <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
           <folding>
             <element signature="e#0#46#0" expanded="false" />
+            <marker date="1456748676328" expanded="true" signature="1866:1872" placeholder="..." />
+            <marker date="1456748676328" expanded="true" signature="1866:1885" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -464,6 +600,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#46#0" expanded="false" />
+            <marker date="1456748676328" expanded="true" signature="1866:1872" placeholder="..." />
+            <marker date="1456748676328" expanded="true" signature="1866:1885" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -490,6 +628,8 @@
           <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
           <folding>
             <element signature="e#0#46#0" expanded="false" />
+            <marker date="1456748676328" expanded="true" signature="1866:1872" placeholder="..." />
+            <marker date="1456748676328" expanded="true" signature="1866:1885" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -523,6 +663,8 @@
           <caret line="36" column="54" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
           <folding>
             <element signature="e#0#46#0" expanded="false" />
+            <marker date="1456748676328" expanded="true" signature="1866:1872" placeholder="..." />
+            <marker date="1456748676328" expanded="true" signature="1866:1885" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -580,9 +722,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/leaguestyles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2692308">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        <state vertical-scroll-proportion="-26.153847">
+          <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradientPie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.344828">
+          <caret line="35" column="27" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#46#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -596,28 +748,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Index.php.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.884615">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        <state vertical-scroll-proportion="-5.2545457">
+          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradientPie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.172413">
-          <caret line="33" column="28" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#46#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apiexecute.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3712036">
-          <caret line="159" column="3" selection-start-line="159" selection-start-column="3" selection-end-line="159" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.344207">
+          <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
           <folding>
             <element signature="e#0#46#0" expanded="false" />
+            <marker date="1456748676328" expanded="true" signature="1866:1872" placeholder="..." />
+            <marker date="1456748676328" expanded="true" signature="1866:1885" placeholder="..." />
           </folding>
         </state>
       </provider>

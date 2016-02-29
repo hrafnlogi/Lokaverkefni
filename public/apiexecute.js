@@ -6,17 +6,19 @@ $( "#target" ).submit(function( event ) {
     event.preventDefault();
     executeapiname(this.summonerid.value)
     $("div#contentinfo").css("border-color: red;");
+
 });
 salesData=[
 ];
 function piefunction(){
 
 
-    var svg = d3.select("#contentinfo").append("svg").attr("width", 400).attr("height", 400);
+
+    var svg = d3.select("#contentinfo").append("svg").attr("width", 300).attr("height", 300);
 
     svg.append("g").attr("id","salespie");
 
-    gradPie.draw("salespie", randomData(), 200, 200, 160);
+    gradPie.draw("salespie", randomData(), 150, 150, 120);
 
     function randomData(){
         return salesData.map(function(d){
@@ -30,7 +32,7 @@ function executeapichamps(summonerid){
         clearcontent('contentinfo');
     }
 
-    var template = $("#leagueasummonername").html();//remove
+    var template = $("#leaguechampgraph").html();//remove
 
     var jqxhr3 = $.getJSON("https://eune.api.pvp.net/api/lol/eune/v1.3/stats/by-summoner/"+ summonerid +"/ranked?season=SEASON2016&api_key=e5736e74-4b7a-4470-8fbb-09bc3feb16c2", function(outcome){
         console.log(outcome);
@@ -43,11 +45,31 @@ function executeapichamps(summonerid){
             console.log(champ.id);
             console.log(champ.stats['totalSessionsPlayed']);
             if (champ.id != 0){
-                var jqxhr3 = $.getJSON("https://global.api.pvp.net/api/lol/static-data/eune/v1.2/champion/"+ champ.id +"?api_key=e5736e74-4b7a-4470-8fbb-09bc3feb16c2", function(outcome){
+                var jqxhr4 = $.getJSON("https://global.api.pvp.net/api/lol/static-data/eune/v1.2/champion/"+ champ.id +"?api_key=e5736e74-4b7a-4470-8fbb-09bc3feb16c2", function(outcome){
                     console.log(outcome.key);
                     console.log(champ.stats['totalSessionsPlayed']);
-                    console.log(getRandomColor());
-                    salesData.push({'label': outcome.key, 'value': champ.stats['totalSessionsPlayed'],'color':getRandomColor()});
+                    litur = getRandomColor();
+                    salesData.push({'label': outcome.key, 'value': champ.stats['totalSessionsPlayed'],'color':litur});
+                    $( '<li style="color:' + litur +';">' + outcome.key + '</li>' ).appendTo("#schamps2");
+                    $("#schamps").hide();
+                });
+                jqxhr4.complete(function() {
+                    if (! apidata){
+                        alert("Summoner not found!");
+                    }
+                    else{
+                        console.log(salesData);
+                        console.log(apidata);
+
+                        var templateScript = Handlebars.compile(template);
+                        //$("#leagueasummonername").html(salesData);
+                        var html = templateScript(salesData);
+
+                        $("#contentinfo").append(html);
+                        var apdata;
+                        summonerid = null;
+                    }
+
                 });
             }
            //https://global.api.pvp.net/api/lol/static-data/eune/v1.2/champion/103?api_key=e5736e74-4b7a-4470-8fbb-09bc3feb16c2
@@ -63,8 +85,6 @@ function executeapichamps(summonerid){
             alert("Summoner not found!");
         }
         else{
-            //console.log(apidata);
-
             var templateScript = Handlebars.compile(template);
             //$("#leagueasummonername").html(apidata);
             var html = templateScript(apidata);
@@ -104,7 +124,6 @@ function executeapiname(summonername){
             }
             else{
             //console.log(apidata);
-
             var templateScript = Handlebars.compile(template);
             //$("#leagueasummonername").html(apidata);
             var html = templateScript(apidata);
@@ -129,7 +148,7 @@ function executeapiinfo(summonerid){
     });
 
     jqxhr2.complete(function() {
-        //console.log(apidata);
+        console.log(apidata);
 
         var templateScript2 = Handlebars.compile(template2);
         //$("#leagueasummonername").html( apidata);
@@ -152,7 +171,7 @@ $( "#prevcontent" ).click(function() {
         //$( this ).prev().hide( "fast", arguments.callee );
         $("#contentinfo").height($("#prevcontent").height());
         $("#contentinfo").height($("#nextcontent").height());
-
+        $("#schamps").show();
         piefunction();
     });
     $("#prevcontent").height($("#contentinfo").height());
@@ -172,6 +191,13 @@ function getRandomColor() {
         color += letters[Math.floor(Math.random() * 16)];
     }
     return color;
+}
+
+function listofchamps(){
+    document.getElementById('schamps2').innerHTML = '<li style="color:red">html data</li>';
+    $("#schamps2").append("<li>Appended item</li>");
+
+    alert("asd");
 }
 
 
