@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="95d3108d-e5e2-45ca-a424-910549fdcb22" name="LeagueOfLegends" url="http://178.62.116.210">
+        <fileTransfer host="178.62.116.210" port="22" rootFolder="/var/www/LeagueOfLegends" accessType="SFTP" username="root">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

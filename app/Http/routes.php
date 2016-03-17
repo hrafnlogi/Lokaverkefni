@@ -11,16 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    $people = ["hrafn", "Harold", "kim yong un"];
+Route::get('/', 'PagesController@home');
+Route::get('about', 'PagesController@about');
+Route::get('hrafn', 'PagesController@hrafn');
+Route::get('cards', 'CardsController@index');
+Route::get('cards/{card}', 'CardsController@show');
 
-    return view('welcome');
-});
-
-
-Route::get('about', function(){
-    return view('pages.about');
-});
 /*
 |--------------------------------------------------------------------------
 | Application Routes

@@ -1,5 +1,5 @@
 @extends('layout')
 
 @section('content')
-    The welcome page comes here
+    <hi>{{ $card->title }}</hi>
 @stop
