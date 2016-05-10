@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Champions</title>
+    <title>@yield('titill')</title>
 
     <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/champstyle.css">
 
     <style>
         html, body {
@@ -18,27 +18,39 @@
             display: table;
             font-weight: 100;
             font-family: 'Lato';
+            color: powderblue;
         }
 
         .container {
             text-align: center;
-            display: table-cell;
+
             vertical-align: middle;
         }
 
         .content {
             text-align: center;
             display: inline-block;
+            float: left;
+            background-color: #0a1827;
+            border: maroon;
+            border-style: outset;
+            width: 45%;
+            margin-left: 1em;
         }
 
         .title {
-            font-size: 96px;
+            font-size: 18px;
             font-weight: bold;
         }
     </style>
 </head>
-<body background="img/background2.jpg">
+<body background="@yield('splashart')">
+
 <div class="container">
+    <div id="championsbutton" class="">
+        <a href='/champions.php' class='button'>Back</a>
+    </div>
+    <h1 style="font-size: 4.6em">@yield('champname')</h1>
     <div class="content">
         <div class="title">@yield('content')</div>
 

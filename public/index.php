@@ -22,11 +22,23 @@
     <!--<script>document.getElementById("summonerid").value;</script>dd -->
     <div id="row">
         <div id="container">
-            <form action="#" id="target">
-                Summoner names:(only eune atm)<br>
-                <input type="text" name="firstname" id="summonerid" required>
-                <input type="submit" value="Submit">
-            </form>
+            <div id="header">
+                <div id="championsbutton" class="">
+                    <a href='champions.php' class='button'>Champions</a>
+                </div>
+                <div id="Searchform">
+                    <form action="#" id="target">
+                        Summoner names:(only eune atm)<br>
+                        <input type="text" name="firstname" id="summonerid" required>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+
+            </div>
+            <!--
+            class="col-xs-12  col-sm-12 col-md-6 col-md-push-3 col-lg-6 col-lg-push-3"
+            class="col-xs-12  col-sm-2 col-sm-push-4 col-md-2 col-md-push-4 col-lg-2 col-lg-push-4"
+            -->
 
 
 
@@ -54,7 +66,7 @@
 
 
 
-        </div>
+    </div>
         <div class="col-xs-1 col-xs-push-2 col-sm-1 col-sm-push-2 col-md-1 col-md-push-2 col-lg-1 col-lg-push-2" id="prevcontent"></div>
         <div class="col-xs-6 col-xs-push-2 col-sm-6 col-sm-push-2  col-md-6 col-md-push-2 col-lg-6 col-lg-push-2" id="contentinfo">
         </div>
@@ -63,4 +75,3 @@
 </body>
 <script type="text/javascript" src="apiexecute.js"></script>
 </html>
-
